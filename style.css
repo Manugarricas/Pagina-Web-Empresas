@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: #DDD;
+}
+
+p {
+    font-size: large;
+}
+
+nav {
+    background-color: #252830;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 50px;
+}
+
+.tutorial, .categorias {
+    margin: 0 150px 0 150px;
+}
+
+.tutorial {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.description {
+    margin-top: 19%;
+}
+
+.logo {
+    width: 24px;
+}
+
+header nav div a {
+    text-decoration: none;
+    color: #8d530b;
+    transition: 0.5s;
+}
+
+header nav div a:hover {
+    color: darkorange;
+    filter: drop-shadow(0 0 15px darkorange);
+    transition: 0.5s;
+}
+
+img {
+    align-items: center;
+}
+
+div.video p {
+    padding: 30px;
+}
+
+.categorias .categoria1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#videoGame-img {
+    object-fit: cover;
+    width: 96%;
+    height: 96%;
+}
+
+.categorias .categoria2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#fragrance-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.categorias {
+   text-align: center;
+   vertical-align: middle;
+}
+
+.categorias p {
+    padding: 20px;
+    font-size: x-large;
+}
+
+footer {
+    margin-top: 100px;
+    min-height: 200px;
+    background-color: #252830;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    text-align: center;
+    height: min-content;
+}
+
+footer div p {
+    margin-top: 20px;
+    color: white;
+}
+
+.footerOptions {
+    text-decoration: none;
+    color: white;
+}
+
+.footerOptions :hover{
+    filter: drop-shadow(0 0 15px #9e9992);
+    transition: 0.5s;
+}
